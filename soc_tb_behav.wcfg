@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="soc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="config" />
+            <top_module name="glbl" />
+            <top_module name="soc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,258,763.780 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,258,857.851 ns"></ZoomEndTime>
+      <Cursor1Time time="1,258,801.065 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="550"></NameColumnWidth>
+      <ValueColumnWidth column_width="243"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/soc_tb/gpio_i" type="array">
+      <obj_property name="ElementShortName">gpio_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/gpio_o" type="array">
+      <obj_property name="ElementShortName">gpio_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/uart_tx" type="logic">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_cpu_rdata" type="array">
+      <obj_property name="ElementShortName">wb_cpu_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_cpu_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_cpu_wdata" type="array">
+      <obj_property name="ElementShortName">wb_cpu_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_cpu_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_cpu_addr" type="array">
+      <obj_property name="ElementShortName">wb_cpu_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_cpu_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_cpu_wstrb" type="array">
+      <obj_property name="ElementShortName">wb_cpu_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_cpu_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_cpu_cyc" type="logic">
+      <obj_property name="ElementShortName">wb_cpu_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_cpu_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_cpu_ack" type="logic">
+      <obj_property name="ElementShortName">wb_cpu_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_cpu_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_wdata" type="array">
+      <obj_property name="ElementShortName">wb_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_addr" type="array">
+      <obj_property name="ElementShortName">wb_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_wstrb" type="array">
+      <obj_property name="ElementShortName">wb_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_uart_rdata" type="array">
+      <obj_property name="ElementShortName">wb_uart_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_uart_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_uart_cyc" type="logic">
+      <obj_property name="ElementShortName">wb_uart_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_uart_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_uart_ack" type="logic">
+      <obj_property name="ElementShortName">wb_uart_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_uart_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/uart_bus_write" type="logic">
+      <obj_property name="ElementShortName">uart_bus_write</obj_property>
+      <obj_property name="ObjectShortName">uart_bus_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_ram_rdata" type="array">
+      <obj_property name="ElementShortName">wb_ram_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_ram_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_ram_cyc" type="logic">
+      <obj_property name="ElementShortName">wb_ram_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_ram_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_ram_ack" type="logic">
+      <obj_property name="ElementShortName">wb_ram_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_ram_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_rom_rdata" type="array">
+      <obj_property name="ElementShortName">wb_rom_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_rom_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_rom_cyc" type="logic">
+      <obj_property name="ElementShortName">wb_rom_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_rom_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_rom_ack" type="logic">
+      <obj_property name="ElementShortName">wb_rom_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_rom_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_gpio_rdata" type="array">
+      <obj_property name="ElementShortName">wb_gpio_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_gpio_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_gpio_cyc" type="logic">
+      <obj_property name="ElementShortName">wb_gpio_cyc</obj_property>
+      <obj_property name="ObjectShortName">wb_gpio_cyc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/wb_gpio_ack" type="logic">
+      <obj_property name="ElementShortName">wb_gpio_ack</obj_property>
+      <obj_property name="ObjectShortName">wb_gpio_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/trap" type="logic">
+      <obj_property name="ElementShortName">trap</obj_property>
+      <obj_property name="ObjectShortName">trap</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/mem_instr" type="logic">
+      <obj_property name="ElementShortName">mem_instr</obj_property>
+      <obj_property name="ObjectShortName">mem_instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/mem_la_wdata" type="array">
+      <obj_property name="ElementShortName">mem_la_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_la_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/soc_inst/picorv32_inst/cpuregs" type="array">
+      <obj_property name="ElementShortName">cpuregs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpuregs[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group44" type="group">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/ce" type="logic">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/bus_write" type="logic">
+         <obj_property name="ElementShortName">bus_write</obj_property>
+         <obj_property name="ObjectShortName">bus_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/byte_sel" type="array">
+         <obj_property name="ElementShortName">byte_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/bus_in" type="array">
+         <obj_property name="ElementShortName">bus_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/bus_out" type="array">
+         <obj_property name="ElementShortName">bus_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/break" type="logic">
+         <obj_property name="ElementShortName">break</obj_property>
+         <obj_property name="ObjectShortName">break</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rxd" type="logic">
+         <obj_property name="ElementShortName">rxd</obj_property>
+         <obj_property name="ObjectShortName">rxd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/txd" type="logic">
+         <obj_property name="ElementShortName">txd</obj_property>
+         <obj_property name="ObjectShortName">txd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/R_baudrate" type="array">
+         <obj_property name="ElementShortName">R_baudrate[15:0]</obj_property>
+         <obj_property name="ObjectShortName">R_baudrate[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/R_baudgen" type="array">
+         <obj_property name="ElementShortName">R_baudgen[16:0]</obj_property>
+         <obj_property name="ObjectShortName">R_baudgen[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/tx_tickcnt" type="array">
+         <obj_property name="ElementShortName">tx_tickcnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_tickcnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/tx_phase" type="array">
+         <obj_property name="ElementShortName">tx_phase[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_phase[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/tx_running" type="logic">
+         <obj_property name="ElementShortName">tx_running</obj_property>
+         <obj_property name="ObjectShortName">tx_running</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/tx_ser" type="array">
+         <obj_property name="ElementShortName">tx_ser[8:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_ser[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/R_rxd" type="logic">
+         <obj_property name="ElementShortName">R_rxd</obj_property>
+         <obj_property name="ObjectShortName">R_rxd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/R_break" type="logic">
+         <obj_property name="ElementShortName">R_break</obj_property>
+         <obj_property name="ObjectShortName">R_break</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rx_tickcnt" type="array">
+         <obj_property name="ElementShortName">rx_tickcnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_tickcnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rx_des" type="array">
+         <obj_property name="ElementShortName">rx_des[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_des[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rx_phase" type="array">
+         <obj_property name="ElementShortName">rx_phase[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_phase[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rx_byte" type="array">
+         <obj_property name="ElementShortName">rx_byte[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_byte[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rx_full" type="logic">
+         <obj_property name="ElementShortName">rx_full</obj_property>
+         <obj_property name="ObjectShortName">rx_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/rx_break_tickcnt" type="array">
+         <obj_property name="ElementShortName">rx_break_tickcnt[24:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_break_tickcnt[24:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_clk_freq" type="other">
+         <obj_property name="ElementShortName">C_clk_freq</obj_property>
+         <obj_property name="ObjectShortName">C_clk_freq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_big_endian" type="other">
+         <obj_property name="ElementShortName">C_big_endian</obj_property>
+         <obj_property name="ObjectShortName">C_big_endian</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_init_baudrate" type="other">
+         <obj_property name="ElementShortName">C_init_baudrate</obj_property>
+         <obj_property name="ObjectShortName">C_init_baudrate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_fixed_baudrate" type="other">
+         <obj_property name="ElementShortName">C_fixed_baudrate</obj_property>
+         <obj_property name="ObjectShortName">C_fixed_baudrate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect" type="other">
+         <obj_property name="ElementShortName">C_break_detect</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect_delay_ms" type="other">
+         <obj_property name="ElementShortName">C_break_detect_delay_ms</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect_delay_ms</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_resets_baudrate" type="other">
+         <obj_property name="ElementShortName">C_break_resets_baudrate</obj_property>
+         <obj_property name="ObjectShortName">C_break_resets_baudrate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_tx_only" type="other">
+         <obj_property name="ElementShortName">C_tx_only</obj_property>
+         <obj_property name="ObjectShortName">C_tx_only</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_bypass" type="other">
+         <obj_property name="ElementShortName">C_bypass</obj_property>
+         <obj_property name="ObjectShortName">C_bypass</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_baud_init" type="array">
+         <obj_property name="ElementShortName">C_baud_init[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C_baud_init[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect_bits" type="other">
+         <obj_property name="ElementShortName">C_break_detect_bits</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect_bits</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect_count" type="other">
+         <obj_property name="ElementShortName">C_break_detect_count</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect_count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect_delay_ticks" type="other">
+         <obj_property name="ElementShortName">C_break_detect_delay_ticks</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect_delay_ticks</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect_incr" type="other">
+         <obj_property name="ElementShortName">C_break_detect_incr</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect_incr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/sio_instance/C_break_detect_start" type="array">
+         <obj_property name="ElementShortName">C_break_detect_start[24:0]</obj_property>
+         <obj_property name="ObjectShortName">C_break_detect_start[24:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/soc_tb/soc_inst/interconnect_inst/BASE_ADDRS" type="array">
+         <obj_property name="ElementShortName">BASE_ADDRS[0:3][23:0]</obj_property>
+         <obj_property name="ObjectShortName">BASE_ADDRS[0:3][23:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
