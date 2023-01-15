@@ -9,8 +9,7 @@ package config is
     
     -- PICORV
     -- SERV
-    constant CPU_NAME : string := "PICORV";
-    constant IS_ARCH_HARVARD : boolean := false;
+    constant CPU_NAME : string := "NEORV";
     constant ENABLE_BUS_ILA_XILINX : boolean := true;
     
     type wb_data_type is array (natural range <>) of std_logic_vector(31 downto 0);

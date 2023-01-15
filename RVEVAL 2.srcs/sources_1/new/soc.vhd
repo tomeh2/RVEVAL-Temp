@@ -263,7 +263,7 @@ begin
                         CPU_EXTENSION_RISCV_M        => false,         -- implement mul/div extension?
                         CPU_EXTENSION_RISCV_U        => false,         -- implement user mode extension?
                         CPU_EXTENSION_RISCV_Zfinx    => false,     -- implement 32-bit floating-point extension (using INT regs!)
-                        CPU_EXTENSION_RISCV_Zicsr    => false,     -- implement CSR system?
+                        CPU_EXTENSION_RISCV_Zicsr    => true,     -- implement CSR system?
                         CPU_EXTENSION_RISCV_Zicntr   => true,                          -- implement base counters?
                         CPU_EXTENSION_RISCV_Zifencei => false,  -- implement instruction stream sync.?
                     
@@ -426,7 +426,7 @@ begin
     end generate;
 
 
-    neumann_gen : if (IS_ARCH_HARVARD = false) generate
+    neumann_gen : if (CPU_NAME = "NEORV" or CPU_NAME = "PICORV") generate
         interconnect_inst : entity work.wb_interconnect_bus(rtl)
                             generic map(DECODER_ADDR_WIDTH => 24,
                                         NUM_SLAVES => 4,
@@ -462,12 +462,12 @@ begin
                                      clk => clk);
     end generate;
     
-    harvard_gen : if (IS_ARCH_HARVARD = true) generate
+    harvard_gen : if (CPU_NAME = "SERV") generate
         interconnect_inst : entity work.wb_interconnect_bus(rtl)
                             generic map(DECODER_ADDR_WIDTH => 24,
                                         NUM_SLAVES => 4,
                                         NUM_MASTERS => 2,
-                                        BASE_ADDRS => (X"FFFFFB", X"80----", X"00----", X"FFFFFF"))
+                                        BASE_ADDRS => (X"FFFFFB", X"8-----", X"0-----", X"FFFFFF"))
                             port map(wb_master_rdata => wb_dcpu_rdata,
                                      wb_master_wdata(31 downto 0) => wb_dcpu_wdata,
                                      wb_master_wdata(63 downto 32) => (others => '0'),

@@ -673,10 +673,14 @@ PORT MAP (
   -- -------------------------------------------------------------------------------------------
   branch_check: process(execute_engine.i_reg, cmp_i)
   begin -- this is hacky!
-    if (execute_engine.i_reg(instr_funct3_msb_c) = '0') then -- beq / bne
-      execute_engine.branch_taken <= cmp_i(cmp_equal_c) xor execute_engine.i_reg(instr_funct3_lsb_c);
-    else -- blt(u) / bge(u)
-      execute_engine.branch_taken <= cmp_i(cmp_less_c)  xor execute_engine.i_reg(instr_funct3_lsb_c);
+    if (execute_engine.i_reg(6 downto 2) = "11000") then
+        if (execute_engine.i_reg(instr_funct3_msb_c) = '0') then -- beq / bne
+          execute_engine.branch_taken <= cmp_i(cmp_equal_c) xor execute_engine.i_reg(instr_funct3_lsb_c);
+        else -- blt(u) / bge(u)
+          execute_engine.branch_taken <= cmp_i(cmp_less_c)  xor execute_engine.i_reg(instr_funct3_lsb_c);
+        end if;
+    else
+        execute_engine.branch_taken <= '0';
     end if;
   end process branch_check;
 
