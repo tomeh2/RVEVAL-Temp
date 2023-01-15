@@ -14,6 +14,7 @@ entity ram_memory is
         bus_wdata : in std_logic_vector(31 downto 0);
         bus_rdata : out std_logic_vector(31 downto 0);
         bus_wstrb : in std_logic_vector(3 downto 0);
+        bus_wren : in std_logic;
         bus_ready : out std_logic;
         -- =================================
         
@@ -43,7 +44,7 @@ begin
             bus_rdata <= ram(to_integer(unsigned(bus_addr(BUS_ADDR_BITS - 1 downto 2))));
             if (en = '1') then
                     for i in 0 to NB_COL - 1 loop
-                        if (bus_wstrb(i) = '1') then
+                        if (bus_wren = '1' and bus_wstrb(i) = '1') then
                             ram(to_integer(unsigned(bus_addr(BUS_ADDR_BITS - 1 downto 2))))((i + 1) * COL_WIDTH - 1 downto i * COL_WIDTH) <= bus_wdata((i + 1) * COL_WIDTH - 1 downto i * COL_WIDTH);
                         end if;
                     end loop;
