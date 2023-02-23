@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-// Date        : Sat Jan 14 16:39:34 2023
+// Date        : Sat Jan 14 16:39:33 2023
 // Host        : DESKTOP-SVM92C6 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub {c:/Vivado Projects/RVEVAL 2/RVEVAL
-//               2.gen/sources_1/ip/ila_0/ila_0_stub.v}
+// Command     : write_verilog -force -mode synth_stub -rename_top ila_0 -prefix
+//               ila_0_ ila_0_stub.v
 // Design      : ila_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tcsg324-1
